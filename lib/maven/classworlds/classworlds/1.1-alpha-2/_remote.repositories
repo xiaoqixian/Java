@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+classworlds-1.1-alpha-2.jar>central=
+classworlds-1.1-alpha-2.pom>central=
+classworlds-1.1-alpha-2.pom>nexus-aliyun=
+classworlds-1.1-alpha-2.jar>nexus-aliyun=

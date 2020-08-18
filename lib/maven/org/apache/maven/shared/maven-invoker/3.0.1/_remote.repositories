@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+maven-invoker-3.0.1.jar>central=
+maven-invoker-3.0.1.pom>nexus-aliyun=
+maven-invoker-3.0.1.jar>nexus-aliyun=
+maven-invoker-3.0.1.pom>central=

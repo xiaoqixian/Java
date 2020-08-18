@@ -3,7 +3,7 @@ package servlet;
 import util.DBUtil;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletContext;
+//import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -38,8 +38,8 @@ public class Controler extends HttpServlet{
         request.setAttribute("next", next);
         request.setAttribute("last", last);
         List<Books> books = BooksDao.select(start, limit);
-        //System.out.println("Books length: " + books.size());
-        getServletContext().log("books length: " + books.size());
+        System.out.println("Books length: " + books.size());
+        //getServletContext().log("books length: " + books.size());
         request.setAttribute("books", books);
 
         request.getRequestDispatcher("view.jsp").forward(request, response);

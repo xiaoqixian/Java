@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+archetype-catalog-3.2.0.pom>central=
+archetype-catalog-3.2.0.pom>nexus-aliyun=
+archetype-catalog-3.2.0.jar>nexus-aliyun=
+archetype-catalog-3.2.0.jar>central=

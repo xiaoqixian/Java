@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+plexus-utils-3.3.0.pom>nexus-aliyun=
+plexus-utils-3.3.0.jar>nexus-aliyun=
+plexus-utils-3.3.0.jar>central=
+plexus-utils-3.3.0.pom>central=

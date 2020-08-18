@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+snappy-0.4.jar>central=
+snappy-0.4.pom>central=
+snappy-0.4.pom>nexus-aliyun=
+snappy-0.4.jar>nexus-aliyun=

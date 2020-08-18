@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+commons-io-2.6.jar>nexus-aliyun=
+commons-io-2.6.pom>central=
+commons-io-2.6.pom>nexus-aliyun=
+commons-io-2.6.jar>central=

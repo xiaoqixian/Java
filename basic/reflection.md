@@ -85,6 +85,8 @@ Field nameField = pClass.getField("name");
 nameField.set(t, name);
 ```
 
+**注意**：在使用反射为Java Bean设置值的时候，Java Bean中一定要设置setter和getter方法，否则会显示找不到属性。
+
 #### 通过反射机制调用类的方法
 
 属性和方法属于不同的类，属性属于`Field`类，而方法属于`Method`类。

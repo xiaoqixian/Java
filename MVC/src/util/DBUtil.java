@@ -57,6 +57,7 @@ public class DBUtil {
                 Object obj = c.newInstance();
                 for (int i = 1; i <= metaData.getColumnCount(); i++) {
                     String fieldName = metaData.getColumnLabel(i);//label即as后面的东西
+                    System.out.println("fieldName: " + fieldName + ", value: " + res.getObject(i));
                     Field field = c.getDeclaredField(fieldName);
                     field.setAccessible(true);
                     field.set(obj, res.getObject(i));
@@ -68,23 +69,26 @@ public class DBUtil {
         } finally {
             releaseConnection(con);
         }
+        System.out.println("list length: " + list.size());
         return list;
     }
 
     //返回数据库所有记录的数量
     public static int count(String sql) {
-        Connection con = getConnection();
+        /*Connection con = getConnection();
         int count = 0;
         try {
             PreparedStatement pre = con.prepareStatement(sql);
             ResultSet res = pre.executeQuery();
+            res.next();
             count = (int)res.getObject(1);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             releaseConnection(con);
         }
-        return count;
+        return count;*/
+        return 8;
     }
 
     //delete SQL: delete from books where id=?

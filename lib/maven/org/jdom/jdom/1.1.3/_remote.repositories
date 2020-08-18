@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 11:49:43 CST 2020
+jdom-1.1.3.jar>central=
+jdom-1.1.3.pom>central=
+jdom-1.1.3.pom>nexus-aliyun=
+jdom-1.1.3.jar>nexus-aliyun=
